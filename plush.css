@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;  
+    font-family: cursive;
+
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.nav{
+    margin: 0 auto;
+}
+.navone{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color:#c27ba0 ;
+    border: 2px solid black;
+    color: white;
+    height: 40px;
+  
+}
+
+.navtwo{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 900px;
+    
+}
+
+.navthree {
+    background-color:#dddddd ;
+    margin: 0; 
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.elements{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+.navthree a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ul{
+    margin: 0;
+}
+
+.dot {
+    text-decoration: none;
+}
+.cart{
+    display: flex;
+    align-items: center;
+}
+#search{
+    width: 600px;
+    height:30px;
+    border: 3px solid black;
+
+}
+
+#cartnum{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#cartimage{
+    width: 30px;
+    height: 30px;
+}
+
+#h{
+    margin-left: 100px;
+    height: 40px;
+    width: 100px;
+    margin: 0;
+}
+.navone p{
+    margin: 0;
+    padding-top: 8px;
+}
+
+.belownav{
+    
+    width: 850px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.first{
+
+    background-color:#c27ba0 ;  
+    color: white;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#switch{
+    font-weight: bolder;
+}
+
+.second{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    padding-top: 30px;
+}
+
+.buy{
+    color: white;
+    font-weight: bolder;
+    font-size: 100%;
+    background-color:#c27ba0 ;  
+    border-radius: 13%;
+    border: 1px solid #c27ba0 ;
+    width: 65px;
+    height: 30px;
+}
+
+.bear{
+    height: 160px;
+    width: 160px;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 25px;
+ 
+
+}
+
+.one {
+    align-items: center;
+    text-align: center;
+}
+
+
+.two{
+    align-items: center;
+    text-align: center;
+}
+
+.three{
+    align-items: center;
+    text-align: center;
+}
+
+.four{
+    align-items: center;
+    text-align: center; 
+}  
+
+#underline{
+    border-bottom: 5px solid #c27ba0 ;
+}

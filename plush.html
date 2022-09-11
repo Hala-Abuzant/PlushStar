@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plush.css">
+    <title>Plushy Store</title>
+</head>
+<body>
+    <div class="main">
+
+        <div class="nav">
+
+                <div class="navone">
+                    <p>FREE PHONE GRIP ON SELECT PURCHASES</p>
+                </div>
+
+                    <div class="navtwo">
+                        <div><h1 id="h">PlushStar</h1></div>
+                            <div class="cart"><input id="search" placeholder="Search" type="text">
+                                <p id="cartnum">0</p><img src="cart-dark.png"  id="cartimage" alt="cart">
+                            </div>
+                    </div>
+
+                            <div class="navthree">
+                                <div class="elements">
+                                    <a href="#">Home</a>
+                                    <a href="#">New</a>
+                                    <a href="#" id="underline">Products</a>
+                                    <a href="#">Sales</a>
+                                    <a href="#">Blog</a>
+                                    <a href="#" onclick="pop()">Contact Us</a> 
+                                </div>
+                            </div>
+
+        </div>
+        
+            <div class="belownav">
+
+                <div class="first">
+                    <h1>Plushy Store</h1>
+                </div>
+
+                    <div class="second">
+
+                        <div class="left">
+                            <p>62 products, sorted by <span id="switch"> Best selling</span> </p>
+                        </div>
+
+                            <div class="right">
+                                <p>Sort By</p> 
+                                    <select onchange="sort(this)" >
+                                        <option>Best-Selling</option>
+                                        <option>Price</option>
+                                    </select>
+                            </div>
+                    </div>
+                        <div class="third">
+                            <div class="one">
+
+                                <img class="bear"  src="product-image.png" alt="product">
+                                <p>Mischief Mouse</p>
+                                <button class="buy" onclick="buy()">BUY</button>
+
+                            </div>
+                                <div class="two">
+
+                                    <img class="bear"  src="product-image.png" alt="product">
+                                    <p>Shy shrew</p>
+                                    <button class="buy" onclick="buy()">BUY</button>
+
+                                </div>
+                                    <div class="three">
+
+                                        <img class="bear"  src="product-image.png" alt="product">
+                                        <p>Hangry Hamster</p>
+                                        <button class="buy" onclick="buy()" >BUY</button>
+
+                                    </div>
+                                        <div class="four">
+
+                                            <img class="bear"  src="product-image.png" alt="product">
+                                            <p>Chilly Chinchilla</p>
+                                            <button class="buy" onclick="buy()" >BUY</button>
+
+                                        </div>
+                        </div>
+            </div>
+    </div> 
+<script src="plush.js"></script>
+</body>
+</html>
